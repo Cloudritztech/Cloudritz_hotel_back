@@ -46,6 +46,7 @@ const server = createServer(app);
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:4000",
+  "https://cloudritz-hotel-front.vercel.app",
   process.env.FRONTEND_URL || "http://localhost:5173"
 ];
 
