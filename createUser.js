@@ -8,10 +8,10 @@ const createUser = async () => {
     console.log('Connected to MongoDB');
 
     const userData = {
-      username: 'admin',
-      email: 'admin@cloudritz.com',
-      password: 'admin123',
-      role: 'admin'
+      username: 'testadmin',
+      email: 'test@cloudritz.com',
+      password: 'test123',
+      role: 'ADMIN'
     };
 
     const existingUser = await User.findOne({ 
