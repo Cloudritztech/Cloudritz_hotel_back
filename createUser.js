@@ -10,7 +10,7 @@ const createUser = async () => {
     const userData = {
       username: 'testadmin',
       email: 'test@cloudritz.com',
-      password: 'test123',
+      password: 'test@123',
       role: 'ADMIN'
     };
 
